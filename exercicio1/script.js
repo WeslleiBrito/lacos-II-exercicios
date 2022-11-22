@@ -6,12 +6,18 @@ const array = [
     [3, 3, 4, 5, 10]
 ]
 
+// Método simples
+for(let i = 0; i < array.length; i++){
+    console.log(`Jogador ${i + 1}: ${array[i]}`)
+}
+
 // Método fácil
 console.log('Método simplificado!')
 for (let i = 0; i < array.length; i++) {
     let gols = array[i].join(', ')
     console.log(`Jogador ${i + 1}: ${gols}`)
 }
+
 
 // Método complexo
 console.log('\nMétodo complexo!')
